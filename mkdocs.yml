@@ -1,0 +1,36 @@
+repo_name: geoffreygx/crop
+repo_url: https://github.com/geoffreygx/crop
+
+site_name: Crop Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: blue
+      accent: green
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: blue
+      accent: lime
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/geoffreygx
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/X5gG3hCZ6B
